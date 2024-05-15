@@ -1,0 +1,13 @@
+prefix=D:/AI/caloriesAdvisor/venv/Library
+exec_prefix=D:/AI/caloriesAdvisor/venv/Library
+libdir=D:/AI/caloriesAdvisor/venv/Library/lib
+sharedlibdir=D:/AI/caloriesAdvisor/venv/Library/lib
+includedir=D:/AI/caloriesAdvisor/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
